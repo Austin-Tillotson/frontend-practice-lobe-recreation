@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
     <title>Lobe</title>
 </head>
-<body class="body">
+<body>
     <header class="header__container">
         <div class="header__logo-container">
             <span class="header__logo-title">lobe</span>
@@ -29,7 +30,7 @@
     <section class="main">
         <div class="main-container">
             <div class="main__header">
-                <h1 class="main__header-header">Lobe Tour</h1>
+                <h1 class="main__header-header"><span class="header1">Lobe</span> <span class="header2">Tour</span></h1>
                 <p class="main__header-para">Build your first machine learning model in ten minutes. No code or experience required.</p>
             </div>
             <div class="main__video">
@@ -42,16 +43,19 @@
         </div>
     </section>
     <footer class="footer">
+        <hr class="footer__break">
         <div class="footer-container">
             <div class="footer__copyright-container">
-                <ul class="footer__copyright-list">lobe <i>icon</i>
-                    <li class="footer__copyright-list-item">A product by Microsoft.</li>
-                    <li class="footer__copyright-list-item">All rights reserved.</li>
-                    <li class="footer__copyright-list-item">&copy; Microsoft 2021</li>
+                <ul class="footer__copyright-list list-defaults">
+                    <h3 class="footer__list-header-copy">lobe <i>icon</i></h3>
+                    <li class="footer__list-item footer__copyright-list-item">A product by Microsoft.</li>
+                    <li class="footer__list-item footer__copyright-list-item">All rights reserved.</li>
+                    <li class="footer__list-item footer__copyright-list-item">&copy; Microsoft 2021</li>
                 </ul>
             </div>
             <div class="footer__list-container">
-                <ul class="footer__list-list">About
+                <ul class="footer__list-list list-defaults">
+                    <h3 class="footer__list-header">About</h3>
                     <li class="footer__list-item">Download</li>
                     <li class="footer__list-item">Overview</li>
                     <li class="footer__list-item">Examples</li>
@@ -59,7 +63,8 @@
                 </ul>
             </div>
             <div class="footer__list-container">
-                <ul class="footer__list-list">General
+                <ul class="footer__list-list list-defaults">
+                    <h3 class="footer__list-header">General</h3>
                     <li class="footer__list-item">Notice</li>
                     <li class="footer__list-item">License</li>
                     <li class="footer__list-item">Press Inquiry</li>
@@ -67,7 +72,8 @@
                 </ul>
             </div>
             <div class="footer__list-container">
-                <ul class="footer__list-list">Resources
+                <ul class="footer__list-list list-defaults">
+                    <h3 class="footer__list-header">Resources</h3>
                     <li class="footer__list-item">Help</li>
                     <li class="footer__list-item">Tour</li>
                     <li class="footer__list-item">Contact</li>
